@@ -1,19 +1,33 @@
-h1{
-    color: #f92672;
-}
-
-img{
+img {
     padding: 2px 2px 2px 2px;
     border: solid 4px gray;
     border-radius: 30px 30px 30px 30px;
-}
-body{
+    width: 450px;
+    height: 400px;
     
-    image: src="https://minio.nplus1.ru/app-images/178182/60d7b371c9ad2a17c302b00d4d5a74b8.jpg";
 }
-#Ball{
-    color: red;
+.string{
+    text-decoration: line-through;
 }
-#Pars{
+.element, h1 {
+    color: rgb(125, 161, 4)
+}
+#Ball {
+    background: aqua;
+}
+#Cartinti {
+    background: rebeccapurple;
+}
+#Zvonci {
+    background: salmon;
+}
+#Pars {
     font-weight: bold;
+    background: hotpink;
+}
+#Dnevnic {
+    background: slateblue;
+}
+#Bugalteria {
+    background: seagreen;
 }
