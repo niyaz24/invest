@@ -37,13 +37,13 @@
 				data-markdown="markdown/broker.md">
 				</section>
 				<section 
-				data-markdown="markdown/security.md">
+				data-markdown="markdown/security_paper.md">
 				</section>
 				<section 
 				data-markdown="markdown/types.md">
 				</section>
 				<section 
-				data-markdown="markdown/investment_portfolio.md">
+				data-markdown="markdown/investmest_postfolio.md">
 				</section>
 				<section 
 				data-markdown="markdown/diversification.md">
@@ -58,15 +58,80 @@
 				data-markdown="markdown/bull.md">
 				</section>
 				<section 
-				data-markdown="markdown/bear.md">
+				data-markdown="markdown/dear.md">
 				</section>
 				<section 
 				data-markdown="markdown/flat.md">
 				</section>
-				<section 
-				data-markdown="markdown/rate_of_return.md">
+				<section>
+					<section data-markdown="">
+						<script type="text/template">
+							### Доходность по медоту Дитца	
+							Введем обозначения:
+							- $R$ - это доходность портфеля портфеоя в процентах
+							- $S_e$ - стоимость портфеля на конце периода.
+							- $S_b$ - стоимость портфеля на начало периода.
+							- $S_a$ - пополнение на счет
+							- $S_w$ - снятия со счета  
+							- $W_t$ - временной весевой коэффициент, который применяется к каждлму денежному потоку в портфеле 
+							- $T$ - это длительность отчетного периода в днях, за котоырй считается доходностью.
+							- $t$ - количество дней с начала инвистирования.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							### Доходность по медоту Дитца
+							$$
+							W_t = \dfrac{T-t}{T}
+							$$
+							
+							$$
+							R = \dfrac{S_e - S_b - \sum S_a + \sum S_w}
+							{
+								S_b+\sum(S_aW_t) - \sum (S_wW_t)
+							}
+							$$
+						</script>
+					</section>
 				</section>
-
+				<section>
+					<h2>Графики</h2>
+				</section>
+				<section data-markdown="markdown/line_chart.md">
+				</section>
+				<section data-markdown="markdown/candlestick.md">
+				</section>
+				<section data-fullscreen data-menu-title="Свечной график">
+					<iframe data-src="html/candlestick.html" class="stretch">
+					</iframe>
+				</section>
+				<section class="center">
+					<h2>Монополия</h2>
+				</section>
+				<section data-fullscreen data-menu-title="Монополия">
+					<iframe data-src="html/monopoly.html" class="stretch">
+					</iframe>
+				</section>
+				<section class="center">
+					<h2>Юмор</h2>
+				</section>
+				<section>
+					<h3>Юмор</h3>
+					<img src="IMG/images.jpg" height="400px">
+				</section>
+				<section
+				data-background-image="IMG/178805-muzhchina-lazurnyj-solnechnye_ochki-purpur-rukav-500x.jpg"
+				data-background-size="contain"
+				data-menu-title="На завод">
+				</section>
+				<section
+				data-background-image="IMG/BIG.jpg"
+				data-menu-title="График">
+				</section>
+				<section class="center"
+				data-menu-title="Конечный слайд">
+					Спасибо за внимание!!!
+				</section>
 			</div>
 		</div>
 
@@ -89,6 +154,10 @@
 					},
 					{
 						src: 'plugin/fullscreen/fullscreen.js'
+					},
+					{
+						src: 'plugin/katex/katex.js',
+						async:true,
 					}
 				],
 				menu: {
