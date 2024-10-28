@@ -25,6 +25,13 @@ img {
     font-weight: bold;
     background: hotpink;
 }
+table, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+td {
+    padding:5px;
+}
 #Dnevnic {
     background: slateblue;
 }
