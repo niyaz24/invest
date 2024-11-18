@@ -25,12 +25,18 @@ img {
     font-weight: bold;
     background: hotpink;
 }
-table, td{
+table,th, td{
     border: 2px solid blue;
     border-collapse: collapse;
 }
 td {
     padding:5px;
+}
+#wrapper {
+    font-size: 13px;
+}
+.vacation{
+    background-color: aquamarine;
 }
 #Dnevnic {
     background: slateblue;
