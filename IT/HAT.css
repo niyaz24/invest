@@ -40,3 +40,27 @@
     padding: 10px;
     margin: 10px;
 }
+
+.author{
+    display: block;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding-bottom: 10px;
+    font-size: large;
+}
+.time{
+    font-size: x-small;
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.friend{
+    background-color: #ccc;
+    border: 1px solid #999;
+}
+.me{
+    background-color: #7282bf;
+    border: 1px solid #261591;
+    align-self: flex-end;
+}
