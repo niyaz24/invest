@@ -60,7 +60,7 @@
             });
     }
 
-    function sendMessageToServer(){
+    function sendMessageToServer(message){
         socket.emit('sendMessage', {
             'author':me,
             'message':message
